@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+
+button{
+    padding: 1px;
+    border: none;
+    justify-content: space-between;
+}
+
+.button-a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.button-b{
+    padding: 10px;
+    border-radius: 10px;
+    border: solid blue 1px;
+}
+
+.section{
+    max-width: 1100px;
+    display:flex;
+    grid-template-columns:  repeat(2, auto);
+    margin: 10px auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section-left a{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    top: 500px;
+    background-color: blue;
+    padding: 10px;
+    text-decoration: white;
+    border-radius: 6px;
+    color: white;
+    font-display: block;
+    text-indent: 10%;
+    text-justify: auto;
+    text-align: left;
+}
+
+.section-left h1{
+    font-weight: 1500;
+    font-size: 50px;
+}
+.section-left p{
+    width: 550px;
+    /* height: 280px; */
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-right{
+    width: 550px;
+    height: 550px;
+    background: url(././pictureFrame.png) no-repeat;
+    background-size: 500px;
+    display: flex;
+    margin: 20px auto;
+    margin-left: 10px;
+} 
+.section2{
+    max-width: 1100px;
+    margin: 10px auto;
+    /* display: flex; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.new-section-left{
+    width: 550px;
+    height: 500px;
+    background: url(././groupPic.png) no-repeat;
+ 
+}
+
+.section22-notes{
+    width: 800px ;
+    height: 500px;
+    margin-left: 600px;
+    margin-top: -500px;
+    margin-right: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px; 
+
+}
+
+
+.section22-notes p{
+    width: 550px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+h2{
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+}
+.message-info a{
+    text-decoration: none;
+}
+
+.location a{
+    text-decoration: none;
+}
+
+.quotes-2{
+    margin-top: -140px;
+    margin-left: 500px;
+}
+
+.section3{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.contacts a{
+    text-decoration: none;
+}
+
+footer{
+    max-width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.flex-container{
+    display: contents;
+}
+
+.footer-col{
+    color: green;
+}
+
+.footer-col li a{
+    display: block;
+    text-decoration: none;
+}
+.footer-col-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.footer-col-1 img{
+    height: 50px;
+}
+.flex-social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-col h4{
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col ul li a:hover{
+    padding: 5px;
+}
